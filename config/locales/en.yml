@@ -1,0 +1,55 @@
+en:
+  common:
+    back: "back"
+    confirm: "Are you sure"
+  products:
+    edit:
+      title: "Edit product"
+    new:
+      title: "New product"
+    index:
+      title: "Products:" 
+      all: "all"
+      min_price: "min price"
+      max_price: "max price"
+    create:
+      created: "you product is created success"
+    update:
+      updated: "You product are updated success"
+    destroy:
+      destroyed: "You product was eliminated success"       
+  activerecord:
+    models:
+      products: product
+    attributes:
+      product:
+        title: "title"
+        description: "description"
+        price: "price"
+        photo: "photo"
+    errors:
+      models:
+        product:
+          attributes:
+            title:
+              blank: "can't be blank"
+            description:
+              blank: "can't be blank" 
+            price: 
+              blank: "can't be blank"                 
+  categories:
+    category:
+      edit: "edit"
+      delete: "delete"
+    index:
+      title: "categories"
+    edit:
+      title: "Edit category"
+    new:
+      title: "new category"    
+    create:
+      created: "you category was create"
+    update:
+      updated: "you category was update"   
+    destroy:
+      destroyed: "you category was destroy"    

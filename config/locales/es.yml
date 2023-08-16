@@ -1,0 +1,60 @@
+es:
+  common:
+    back: "regresar"
+    confirm: "Estas seguro"
+  products:
+    edit:
+      title: "Editar producto"
+    new:
+      title: "Nuevo producto"
+    index:
+      title: "Productos"  
+      all: "todos"
+      min_price: "precio minimo"
+      max_price: "precio maximo"
+    create:
+      created: "Tu producto se ha creado"
+    update:
+      updated: "Tu producto se ha actualizado"
+    destroy:
+      destroyed: "Tu producto se ha eliminado"             
+  activerecord:
+    models:
+      products: producto
+    attributes:
+      product:
+        title: "titulo"
+        description: "descripcion"
+        price: "precio"
+        photo: "foto"
+    errors:
+      models:
+        product:
+          attributes:          
+            title:
+              blank: "No puede estar vacio"
+            description:
+              blank: "No puede estar vacia" 
+            price: 
+              blank: "No puede estar vacio"                      
+  categories:
+    category:
+      edit: "editar"
+      delete: "eliminar"
+    index:
+      title: "categoria"
+      new: "nueva categoria"
+    edit:
+      title: "Edita tu categoria"
+    new:
+      title: "nueva categoria"    
+    create:
+      created: "tu categoria se ha creado"
+    update:
+      updated: "tu categoria se ha actualizado"   
+    destroy:
+      destroyed: "tu categoria se ha eliminado"  
+  shared:
+    header:
+      add: "nuevo producto"
+      categories: "añadie categoria"  
